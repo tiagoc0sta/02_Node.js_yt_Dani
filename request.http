@@ -1,0 +1,23 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+  "name": "mesa",
+  "price": 10
+}
+
+###
+GET http://localhost:4002/products/
+
+
+###
+PUT http://localhost:4002/products/953a0818-cbfb-4f75-9830-e9550bdfd30e
+content-type: application/json
+
+{
+  "name": "Caderno verde",
+  "price": 10
+}
+
+###
+DELETE http://localhost:4002/products/8fdf12aa-6d85-4901-b66a-e0e8c0a43b72
